@@ -7,8 +7,8 @@ def main():
     manager = ProductManager()
 
     # Kreiranje proizvoda
-    p1 = Product("Laptop", 1000, 5)
-    p2 = Product("Telefon", 500, 10)
+    p1 = Product("Laptop pro", 1200, 1)
+    p2 = Product("Telefon x", 800, 2)
     p3 = Product("Tablet", 300, 7)
 
     # Dodavanje proizvoda u manager
@@ -18,7 +18,6 @@ def main():
 
     # Prikaz svih proizvoda
     print("Lista proizvoda:")
-    manager.display_all_products()
 
     # Prikaz ukupne vrednosti inventara
     print("Ukupna vrednost inventara:", manager.total_inventory_value())
