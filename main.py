@@ -22,6 +22,20 @@ def main():
     # Prikaz ukupne vrednosti inventara
     print("Ukupna vrednost inventara:", manager.total_inventory_value())
 
+cart = Cart()
+
+    # Dodavanje 3 proizvoda iz manager-a u korpu
+cart.add_to_cart(p1)
+cart.add_to_cart(p2)
+cart.add_to_cart(p3)
+
+    # Prikaz sadržaja korpe
+cart.display_cart()
+
+    # Prikaz ukupne vrednosti za naplatu
+ print("Ukupno za naplatu:", cart.total_cart_value())
+
 
 if __name__ == "__main__":
     main()
+
